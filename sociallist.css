@@ -1,0 +1,47 @@
+div .sociallist { margin: 16px 0 !important; }
+
+span.sociallist_tagline { position: relative; }
+span.sociallist_tagline span { display: none; width: 14em; }
+span.sociallist_tagline:hover span {
+	position: absolute;
+	display: block;
+	top: -5em;
+	background: #ffe;
+	border: 1px solid #ccc;
+	color: black;
+	line-height: 1.25em;
+}
+
+.sociallist span {
+	display: block;
+}
+.sociallist ul {
+	display: inline;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.sociallist li {
+	background: none;
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 2px;
+}
+.sociallist ul li:before { content: ""; }
+.sociallist img {
+	float: none;
+	border: 0;
+	margin: 0;
+	padding: 3px;
+}
+
+.sociallist-hovers {
+	opacity: .4;
+	-moz-opacity: .4;
+	filter: alpha(opacity=40);
+}
+.sociallist-hovers:hover {
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+}

@@ -1,0 +1,40 @@
+#sociallist_options fieldset {
+	margin: 1em;
+}
+
+#sociallist_site_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+        font-size: 80%;
+}
+#sociallist_site_list li {
+	cursor: move;
+	float: left;
+	margin: 2px 2px 0 0;
+	width: 12em;
+	height: 20px;
+	text-align: left;
+	padding: 4px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#sociallist_site_list li.active { background-color: #6da6d1; }
+#sociallist_site_list li.active img {
+	opacity: 1;
+	-moz-opacity: 1;
+	filter:alpha(opacity=100);
+}
+#sociallist_site_list li.inactive { background-color: #dddddd; }
+#sociallist_site_list li.inactive img {
+	opacity: .4;
+	-moz-opacity: .4;
+	filter:alpha(opacity=40);
+}
+#sociallist_site_list li input {
+	margin: 2px;
+}
+
+#sociallist_tagline input {
+	width: 30em;
+}
